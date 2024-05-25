@@ -7,9 +7,6 @@ import scipy.io as scio
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.preprocessing import scale
 
-
-
-SIE = True
 channel = 22
 Dropout_rate = 0.5
 intput_size = (10, channel, 1000)
